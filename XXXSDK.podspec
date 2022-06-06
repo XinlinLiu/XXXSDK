@@ -80,8 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  #spec.source       = { :git => "https://github.com/XinlinLiu/XXXSDK.git", :tag =>"#{spec.version}" }
-  spec.source       = { :git => "https://github.com/XinlinLiu/XXXSDK.git" }
+  spec.source       = { :git => "https://github.com/XinlinLiu/XXXSDK.git", :tag =>"#{spec.version}" }
 
 
 
@@ -138,6 +137,9 @@ Pod::Spec.new do |spec|
   # spec.dependency "JSONKit", "~> 1.4"
 
   spec.static_framework = true
+
+ # 本库提供的framework静态库
+  spec.vendored_framework = 'XXXSDK.framework'
 
 
 end
