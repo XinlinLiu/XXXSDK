@@ -116,15 +116,14 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+    spec.framework  = "XXXSDK.framework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
-   spec.vendored_frameworks = [
-	'./XXXSDK.framework'
-]
+  # spec.vendored_frameworks = [
+#	'XXXSDK.framework']
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
