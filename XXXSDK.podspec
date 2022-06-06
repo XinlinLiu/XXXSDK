@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = 'XXXSDK/XXXSDK.h'
 
   #spec.exclude_files = ""
-  #spec.public_header_files = "XXXSDK/*.h"
+  spec.public_header_files = 'XXXSDK/XXXSDK.h'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
