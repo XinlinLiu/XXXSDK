@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-			XXXSDK
+                XXXSDK Description
                    DESC
 
   spec.homepage     = "https://github.com/XinlinLiu/XXXSDK"
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  #spec.license      = "MIT (example)"
+ # spec.license      = "MIT (example)"
   spec.license      = { :type => "MIT"}
 
 
@@ -79,7 +79,8 @@ Pod::Spec.new do |spec|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  spec.source = { :git => "https://github.com/XinlinLiu/XXXSDK.git", :tag => "#{spec.version}" }
+
+  spec.source       = { :git => "https://github.com/XinlinLiu/XXXSDK.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,10 +91,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #spec.source_files  = 'Classes/**/*.{h,m}'
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.exclude_files = "Classes/Exclude"
 
-  #spec.exclude_files = ""
-  #spec.public_header_files = 'Headers/Public/*.h'
+  spec.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -116,7 +117,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "XXXSDK.framework"
+  # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
@@ -132,12 +133,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-
-  spec.static_framework = true
-  #spec.dependency "JSONKit", "~> 1.4"
-
-  spec.vendored_frameworks = ['XXXSDK.framework']
-
-  
+  # spec.dependency "JSONKit", "~> 1.4"
 
 end
