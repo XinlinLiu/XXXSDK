@@ -122,6 +122,8 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
+   spec.vendored_frameworks = ['XXXSDK.framework']
+
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -136,6 +138,6 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
   #spec.dependency "JSONKit", "~> 1.4"
 
-  spec.vendored_frameworks = ['XXXSDK.framework']
+  
 
 end
