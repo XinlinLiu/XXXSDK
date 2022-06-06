@@ -80,7 +80,9 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/XinlinLiu/XXXSDK.git", :tag => "#{spec.version}" }
+  #spec.source       = { :git => "https://github.com/XinlinLiu/XXXSDK.git", :tag =>"#{spec.version}" }
+  spec.source       = { :git => "https://github.com/XinlinLiu/XXXSDK.git" }
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -134,5 +136,8 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+
+  spec.static_framework = true
+
 
 end
