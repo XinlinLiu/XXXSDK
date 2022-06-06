@@ -136,7 +136,7 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
   #spec.dependency "JSONKit", "~> 1.4"
 
-  #spec.vendored_frameworks = ['XXXSDK.framework']
+  spec.vendored_frameworks = ['XXXSDK.framework']
 
   
 
