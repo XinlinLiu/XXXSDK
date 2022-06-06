@@ -90,10 +90,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'Classes/**/*.{h,m}'
+  #spec.source_files  = 'Classes/**/*.{h,m}'
 
   #spec.exclude_files = ""
-  spec.public_header_files = 'Headers/Public/*.h'
+  #spec.public_header_files = 'Headers/Public/*.h'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -116,14 +116,11 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-    spec.framework  = "XXXSDK.framework"
+  # spec.framework  = "XXXSDK.framework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-
-  # spec.vendored_frameworks = [
-#	'XXXSDK.framework']
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -138,6 +135,8 @@ Pod::Spec.new do |spec|
 
   spec.static_framework = true
   #spec.dependency "JSONKit", "~> 1.4"
+
+  #spec.vendored_frameworks = ['XXXSDK.framework']
 
   
 
