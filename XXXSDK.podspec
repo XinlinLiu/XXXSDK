@@ -138,7 +138,7 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
 
  # 本库提供的framework静态库
-  spec.vendored_frameworks = 'XXXSDK.framework'
+  #spec.vendored_frameworks = 'XXXSDK.framework'
 
 
 end
