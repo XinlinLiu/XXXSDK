@@ -81,9 +81,6 @@ Pod::Spec.new do |spec|
   #
   spec.source = { :git => "https://github.com/XinlinLiu/XXXSDK.git", :tag => "#{spec.version}" }
 
-  #spec.source = { :path => "/Users/pansoft/Desktop/PodTest/framework/XXXSDK.framework" }
-
-
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -138,8 +135,5 @@ Pod::Spec.new do |spec|
 
   spec.static_framework = true
   #spec.dependency "JSONKit", "~> 1.4"
-
-  #spec.vendored_frameworks = [
-  #'XXXSDK.framework']
 
 end
