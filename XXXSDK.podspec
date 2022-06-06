@@ -122,7 +122,9 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
-   spec.vendored_frameworks = ['XXXSDK.framework']
+   spec.vendored_frameworks = [
+	'./XXXSDK.framework'
+]
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
