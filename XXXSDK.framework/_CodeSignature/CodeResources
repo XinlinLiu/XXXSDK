@@ -4,6 +4,34 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/StringSDK.framework/Info.plist</key>
+		<data>
+		hu2jeUXne45vv3Er7OC4xoNDMxw=
+		</data>
+		<key>Frameworks/StringSDK.framework/StringSDK</key>
+		<data>
+		qyuPLUlAr4zIYgK8yPfAqUV1Nx0=
+		</data>
+		<key>Frameworks/StringSDK.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		JTuydUcZCAsP5fqttKc8LlP5fJ0=
+		</data>
+		<key>Frameworks/StringSDK.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		bLsOVpt4UiWkMMrPYtfp5ddjd2I=
+		</data>
+		<key>Frameworks/StringSDK.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		JkMmo4WJEc2fPRHRpxxTOClR+4I=
+		</data>
+		<key>Frameworks/StringSDK.framework/_CodeSignature/CodeResources</key>
+		<data>
+		MaUl7WSS88FbEQqsXgmfwZKlwe4=
+		</data>
+		<key>Frameworks/StringSDK.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		DvvPRtKwjNOfwcCYir1T5Pla1vQ=
+		</data>
 		<key>Headers/HelloWorld.h</key>
 		<data>
 		WLsonEH0lgB5oNJAZ8cJ4qs8eUs=
@@ -14,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZXxH0+b/QpUMrsNR6wXm8H2K7kQ=
+		PmkRc68QTask/s6BF6RJ8nj3jFM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -23,6 +51,83 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/StringSDK.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hu2jeUXne45vv3Er7OC4xoNDMxw=
+			</data>
+			<key>hash2</key>
+			<data>
+			Aykrr9w6IyrKZQOi6sXqvKd8zqrnZxqQ4ZvvIYkYTMs=
+			</data>
+		</dict>
+		<key>Frameworks/StringSDK.framework/StringSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qyuPLUlAr4zIYgK8yPfAqUV1Nx0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mv7/u9p6pA8aTbkJ2SyDUDGaB2f0SfEAG3WeIBgOmp4=
+			</data>
+		</dict>
+		<key>Frameworks/StringSDK.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JTuydUcZCAsP5fqttKc8LlP5fJ0=
+			</data>
+			<key>hash2</key>
+			<data>
+			C0rYFjdP7VV0xfEsE3hbPN2jzj02zbAaDsXa1ay/bA4=
+			</data>
+		</dict>
+		<key>Frameworks/StringSDK.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bLsOVpt4UiWkMMrPYtfp5ddjd2I=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ek1I20rpUHCSJJ8/UhzI5z4pk93zeW/swTir/HcZ3Rg=
+			</data>
+		</dict>
+		<key>Frameworks/StringSDK.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JkMmo4WJEc2fPRHRpxxTOClR+4I=
+			</data>
+			<key>hash2</key>
+			<data>
+			AtxFKdeVlfgEnoLOu9mn/bLdmoADUbiFHWMwCKs783o=
+			</data>
+		</dict>
+		<key>Frameworks/StringSDK.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MaUl7WSS88FbEQqsXgmfwZKlwe4=
+			</data>
+			<key>hash2</key>
+			<data>
+			BgSHreg3/fNcSpRfpI2J5uD2Y7U9fFNZxXn5KQVsphg=
+			</data>
+		</dict>
+		<key>Frameworks/StringSDK.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DvvPRtKwjNOfwcCYir1T5Pla1vQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZB1ISfEXqCaTRFqa6GTKQGmTk6K2tG8whK0RdxLmgsI=
+			</data>
+		</dict>
 		<key>Headers/HelloWorld.h</key>
 		<dict>
 			<key>hash</key>
