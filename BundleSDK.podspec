@@ -106,7 +106,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "BundleSDK/*.bundle"
+  spec.resource = "BundleSDK/BundleSDK.bundle"
   #spec.resources = "**/*.bundle"
   #spec.resource_bundle = {
   #  'BundleSDK' => ['BundleSDK/BundleSDK.bundle']
