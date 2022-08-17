@@ -1,0 +1,6 @@
+framework module BundleSDK {
+  umbrella header "BundleSDK.h"
+
+  export *
+  module * { export * }
+}
