@@ -109,7 +109,7 @@ Pod::Spec.new do |spec|
   #spec.resources = "**/*.bundle"
   #spec.resources = "**/*.bundle"
   spec.resource_bundle = {
-    'BundleSDKee' => ['**/*.bundle']
+    'BundleSDK' => ['**/*.bundle']
   }
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
