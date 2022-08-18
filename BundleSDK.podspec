@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "**/*.{h,m}"
   spec.exclude_files = "Exclude"
-  spec.public_header_files = "**/*.h"
+  #spec.public_header_files = "**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
